@@ -11,5 +11,5 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run custom hello action
-        uses: joaomvadev/hello-action@main
+        uses: joaomvacritical/hello-action@main
 
