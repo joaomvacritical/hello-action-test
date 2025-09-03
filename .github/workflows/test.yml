@@ -1,6 +1,6 @@
 name: Test Hello Action
 
-on: push:
+on: push
    jobs:
        main:
          runs-on: ubuntu-latest
