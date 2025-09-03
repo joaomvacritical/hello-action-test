@@ -1,15 +1,10 @@
 name: Test Hello Action
 
-on:
-  push:
-
-jobs:
-  run-hello:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-
-      - name: Run custom hello action
-        uses: joaomvacritical/hello-action@main
-
+on: push:
+   jobs:
+       main:
+         runs-on: ubuntu-latest
+         steps:
+           - uses: actions/checkout@v4
+           - uses: joaomvacritical/hello-action@main
+  
